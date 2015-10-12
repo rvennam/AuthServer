@@ -1,4 +1,4 @@
-FROM registry.ng.bluemix.net/ibmliberty
+FROM registry.eu-gb.bluemix.net/ibmliberty
 COPY AuthServer.war /opt/ibm/wlp/usr/servers/defaultServer/dropins/
 COPY server.xml /opt/ibm/wlp/usr/servers/defaultServer/
 ENV LICENSE accept
